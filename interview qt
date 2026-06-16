@@ -1,0 +1,16 @@
+1. What are operators in Java?
+
+Operators are special symbols used to perform operations on variables and values.
+
+2. How many types of operators are there in Java?
+Arithmetic Operators
+Relational Operators
+Logical Operators
+Assignment Operators
+Bitwise Operators
+Unary Operators
+Ternary Operator
+Shift Operators
+3. What is the difference between = and ==?
+= : Assignment operator
+== : Comparison operator
