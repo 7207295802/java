@@ -82,3 +82,23 @@ public class Main {
             System.out.println(num + " is not a Spy Number");
     }
 }
+
+#magic number
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = sc.nextInt();
+        
+        // Mathematical shortcut: A number is a magic number if its modulo 9 is 1
+        if (num > 0 && num % 9 == 1) {
+            System.out.println(num + " is a Magic Number.");
+        } else {
+            System.out.println(num + " is not a Magic Number.");
+        }
+        sc.close();
+    }
+}
+
