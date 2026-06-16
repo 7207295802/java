@@ -1,0 +1,25 @@
+public class OperatorDemo {
+    public static void main(String[] args) {
+        // 1. Arithmetic & Assignment
+        int a = 10;
+        int b = 3;
+        int sum = a + b;         // sum = 13
+        int remainder = a % b;   // remainder = 1
+
+        // 2. Unary (Post-Increment)
+        int c = a++; // c gets 10, then a becomes 11
+
+        // 3. Relational & Logical
+        boolean isGreater = (a > b);        // true
+        boolean checkLogic = (a > 5 && b < 2); // false (since b < 2 is false)
+
+        // 4. Ternary Operator
+        int max = (a > b) ? a : b; // Assigns a to max if true, else b
+
+        // Printing results
+        System.out.println("Sum: " + sum);
+        System.out.println("Remainder: " + remainder);
+        System.out.println("Post-increment result: " + c);
+        System.out.println("Max Value: " + max);
+    }
+}
