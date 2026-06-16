@@ -9,3 +9,76 @@ public class Main
 		System.out.println(opposite);
 	}
 }
+
+#prg 2
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner obj=new Scanner(System.in);
+		int a=obj.nextInt();
+		//int b=obj.nextInt();
+		for(int i=0;i<=a;i++){
+		    System.out.println(i);
+		}
+	}
+}
+
+#prg 3 fibonacci
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner obj=new Scanner(System.in);
+		int a=obj.nextInt();
+		//int b=obj.nextInt();
+		for(int i=0;i<=a;i=i+2){
+		    System.out.println(i);
+		}
+	}
+}
+
+#factorial prgm
+public class Main {
+    public static void main(String[] args) {
+        int n = 10;
+        int a = 0, b = 1, c;
+
+        System.out.print(a + " " + b + " ");
+
+        for (int i = 2; i < n; i++) {
+            c = a + b;
+            System.out.print(c + " ");
+            a = b;
+            b = c;
+        }
+    }
+}
+
+#spy number
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int num, digit, sum = 0, product = 1;
+
+        System.out.print("Enter a number: ");
+        num = sc.nextInt();
+
+        int temp = num;
+
+        while (temp > 0) {
+            digit = temp % 10;
+            sum = sum + digit;
+            product = product * digit;
+            temp = temp / 10;
+        }
+
+        if (sum == product)
+            System.out.println(num + " is a Spy Number");
+        else
+            System.out.println(num + " is not a Spy Number");
+    }
+}
