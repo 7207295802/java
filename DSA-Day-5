@@ -7,3 +7,14 @@ public class Main {
         System.out.println(str.substring(0, 4)); 
     } 
 }
+
+#2 str slicing
+import java.io.*; 
+
+public class Main { 
+    public static void main(String[] args) { 
+        String str = "kiler sillent"; 
+        System.out.println(str.substring(0,str.length()-1)); 
+    } 
+}
+
